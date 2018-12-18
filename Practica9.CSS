@@ -1,0 +1,38 @@
+@charset "utf-8";
+body {
+  background: url("fondos/corazon-1.svg") repeat-y top left, url("fondos/corazon-2.svg") repeat-y top right;
+  background-color: hsl(343, 59%, 79%);
+  background-size: 150px;
+  font-family: Verdana;
+  font-size: 1.25rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+div {
+    color: aliceblue;
+  border: black 2px solid;
+  margin: 20px 170px;
+  font-weight: bold;
+}
+div.Caja1 {
+  background: url("fondos/manchas.png");
+
+}
+div.Caja2 {
+  background: url("fondos/fuego.svg") no-repeat bottom right, url("fondos/fuego.svg") no-repeat bottom left, url("fondos/tallos.jpg");
+  color: hsl(51, 67%, 88%);
+}
+div.Caja3 {
+  background:  url("fondos/ojo.svg") no-repeat center, url("fondos/hexagonos.jpg");
+  background-size: contain, auto;
+  color: hsl(0, 76%, 42%);
+}
+div.Caja4 {
+  padding-bottom: 50px;
+  background: url("fondos/caballo.svg") repeat-x bottom, url("fondos/estrellas.png") repeat;
+  background-size: 100px, auto;
+  color: hsl(125, 82%, 33%);
+}
